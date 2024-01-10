@@ -50,7 +50,7 @@ const router = createBrowserRouter([
                 path:'/posts/users/:id',element:<AuthorPost/>
             },
             {
-                path:'/posts/categories/category',element:<CategoryPosts/>
+                path:'/posts/categories/:category',element:<CategoryPosts/>
             }
         ]
     }

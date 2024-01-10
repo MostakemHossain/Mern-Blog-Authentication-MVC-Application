@@ -13,6 +13,7 @@
     --color-bg:hwb(240,95%,0%);
     --color-red:rgb(255,0,0);
     --color-gray:rgb(128,128,128);
+    --color-gray-900:rgb(73, 88, 103);
 
 }
 body{
@@ -114,4 +115,43 @@ nav{
 .nav_toggle_btn{
     display: none;
 
+}
+
+
+
+
+
+
+
+/*==============================Footer================================*/
+footer{
+    background: var(--color-gray-900);
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+.footer_categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap: 6px;
+}
+.footer_categories a{
+    background-color: rgb(100,149,237);
+    color : var(--color-white);
+    padding: 0.6rem 1.4rem;
+    border-radius: var(--radius-2);
+    transition: var(--transition);
+
+}
+.footer_categories a:hover{
+    background: var(--color-white);
+    color : var(--color-gray-900);
+}
+.footer_copyright{
+    text-align: center;
+    border-top:rgb(75,0,130);
+    padding: 1rem;
+    color:var(--color-white);
+    font-weight: 300;
 }
